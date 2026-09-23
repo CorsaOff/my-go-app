@@ -230,7 +230,7 @@ Hello from Go app!
 - Перейдите на вкладку **Actions** в вашем репозитории на **GitHub**. Вы увидите, как ваш **Workflow** запустился, а через несколько минут загорится **зеленая** галочка, которая означает, что все шаги прошли успешно
 - Если ваш **Workflow** стал красным - исправьте ошибки и запуштесь снова
 
-![Скрин](/content/DevOps/CI_CD/img/5_workflow.png)
+![alt text](image-1.png)
 
 
 ### 11. Проверить сборку Docker-образа локально
@@ -252,7 +252,7 @@ Hello from Go app!
 2 + 3 = 5
 ```
 
-![Hello from my Go app!](/content/DevOps/CI_CD/img/7_workflow.png)
+![alt text](image-2.png)
 
 Опционально вы можете зайти в интерактивный режим контейнера для ознакомления и отладки:
 ```shell
@@ -262,7 +262,6 @@ docker run -it --rm my-go-app:latest /bin/sh
 ```shell
 cat /etc/os-release
 ```
-![Hello from my Go app!](/content/DevOps/CI_CD/img/8_workflow.png)
 
 выйти из контейнра:
 ```shell
